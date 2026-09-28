@@ -1,0 +1,4 @@
+-r requirements.txt
+# Optional: enables the schema-aware IfcOpenShell backend.
+# The dashboard works without it thanks to the built-in STEP reader.
+ifcopenshell>=0.7.0
